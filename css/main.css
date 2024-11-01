@@ -2,13 +2,44 @@
 
 /* Set custom variables here */
 
+:root {
+  --green: #2e483a;
+}
 
+.navbar {
+  background-color: var(--green);
+}
 
+.button {
+  background-color: var(--green);
+  color: white;
+  border-radius: 5px;
+  padding: 10px 10px;
+}
 
+.what-customers-are-saying {
+  background-color: var(--green);
+  color: white;
+}
 
+.navbar-brand img {
+  width: 50px;
+}
+
+.text-container-banner {
+  margin-top: -300px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+/* 
 .navbar-brand {
   color: #F6F3ED;
-}
+} */
+
+/* .navbar {
+  color: #198754;
+} */
 
 body {
   font-family: "Sarala", sans-serif;
@@ -50,4 +81,12 @@ section:not(#hero):not(#cta){
   section:not(#hero):not(#cta){
     padding: 100px 0;
   }
+}
+
+.how-it-works {
+  background-color: #f6f3ed;
+}
+
+.smarter-way-to-eat {
+  background-color: #f6f3ed;
 }
